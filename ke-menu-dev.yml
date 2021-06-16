@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    generate-unique-name: false
+    name: foodmenuh2
+
