@@ -3,4 +3,11 @@ spring:
     basename: i18n/messages
     encoding: UTF-8
     use-code-as-default-message: true
-
+eureka:
+    instance:
+        preferIpAddress: true
+    client:
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl:
+            defaultZone: http://localhost:8070/eureka/
